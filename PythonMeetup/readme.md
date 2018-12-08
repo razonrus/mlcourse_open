@@ -1190,7 +1190,7 @@ plt.title('Attrition distribution');
 ```
 
 
-![png](output_35_0.png)
+![png](md/output_35_0.png)
 
 
 
@@ -1266,7 +1266,7 @@ sns.countplot(x='BusinessTravel', hue='Attrition', data=df);
 ```
 
 
-![png](output_37_0.png)
+![png](md/output_37_0.png)
 
 
 
@@ -1275,7 +1275,7 @@ sns.countplot(x='MaritalStatus', hue='Attrition', data=df);
 ```
 
 
-![png](output_38_0.png)
+![png](md/output_38_0.png)
 
 
 
@@ -1356,7 +1356,7 @@ sns.countplot(x='StockOptionLevel', hue='Attrition', data=df);
 ```
 
 
-![png](output_40_0.png)
+![png](md/output_40_0.png)
 
 
 
@@ -1389,7 +1389,7 @@ sns_plot.savefig('pairplot.png')
 ```
 
 
-![png](output_46_0.png)
+![png](md/output_46_0.png)
 
 
 ### Гистограмма и KDE (<a href="https://en.wikipedia.org/wiki/Kernel_density_estimation"> kernel density estimation</a>)
@@ -1407,7 +1407,7 @@ sns.distplot(df.Age)
 
 
 
-![png](output_48_1.png)
+![png](md/output_48_1.png)
 
 
 
@@ -1423,7 +1423,7 @@ sns.jointplot(df.YearsAtCompany, df.MonthlyIncome, size =10)
 
 
 
-![png](output_49_1.png)
+![png](md/output_49_1.png)
 
 
 ### Box plot
@@ -1441,7 +1441,7 @@ sns.boxplot(y="Department", x="YearsAtCompany", data=df, orient="h")
 
 
 
-![png](output_51_1.png)
+![png](md/output_51_1.png)
 
 
 Box plot состоит из коробки (поэтому он и называется box plot), усиков и точек. Коробка показывает интерквартильный размах распределения, то есть соответственно 25% (Q1) и 75% (Q3) перцентили. Черта внутри коробки обозначает медиану распределения.
@@ -1468,7 +1468,7 @@ sns.heatmap(department_ef_mi, annot=True, fmt=".1f", linewidths=.5)
 
 
 
-![png](output_54_1.png)
+![png](md/output_54_1.png)
 
 
 
@@ -1664,7 +1664,7 @@ sns.heatmap(corr_matrix);
 ```
 
 
-![png](output_58_0.png)
+![png](md/output_58_0.png)
 
 
 
@@ -1680,7 +1680,7 @@ df[features[:9]].hist(figsize=(20,16));
 ```
 
 
-![png](output_60_0.png)
+![png](md/output_60_0.png)
 
 
 
@@ -1689,7 +1689,7 @@ sns.pairplot(df[['DistanceFromHome','YearsWithCurrManager','Attrition']], hue='A
 ```
 
 
-![png](output_61_0.png)
+![png](md/output_61_0.png)
 
 
 
@@ -1709,7 +1709,7 @@ for idx, feat in  enumerate(features[:9]):
     
 
 
-![png](output_62_1.png)
+![png](md/output_62_1.png)
 
 
 
@@ -1721,7 +1721,7 @@ sns.violinplot(x='Attrition', y='JobLevel', data=df, ax=axes[1]);
 ```
 
 
-![png](output_63_0.png)
+![png](md/output_63_0.png)
 
 
 
@@ -1733,7 +1733,7 @@ sns.violinplot(x='Attrition', y='MonthlyIncome', data=df, ax=axes[1]);
 ```
 
 
-![png](output_64_0.png)
+![png](md/output_64_0.png)
 
 
 
@@ -1783,7 +1783,7 @@ plt.scatter(tsne_representation[:, 0], tsne_representation[:, 1]);
 ```
 
 
-![png](output_71_0.png)
+![png](md/output_71_0.png)
 
 
 
@@ -1793,7 +1793,7 @@ plt.scatter(tsne_representation[:, 0], tsne_representation[:, 1],
 ```
 
 
-![png](output_72_0.png)
+![png](md/output_72_0.png)
 
 
 
@@ -1809,7 +1809,7 @@ axes[1].set_title('BusinessTravel');
 ```
 
 
-![png](output_73_0.png)
+![png](md/output_73_0.png)
 
 
 
@@ -1825,7 +1825,7 @@ axes[1].set_title('Education');
 ```
 
 
-![png](output_74_0.png)
+![png](md/output_74_0.png)
 
 
 ## Машинное обучение
@@ -2093,7 +2093,7 @@ Image(graph.create_png())
 
 
 
-![png](output_101_0.png)
+![png](md/output_101_0.png)
 
 
 
@@ -2221,7 +2221,7 @@ visualize_coefficients(logit, df.columns)
 ```
 
 
-![png](output_114_0.png)
+![png](md/output_114_0.png)
 
 
 # Ссылки
